@@ -1,7 +1,7 @@
 # Movie-Recommendation-System
 
 # Project Description
-Create a content-based movie recommeder that the user can give amovie title as input and the system return the 5 most relevant movie titles.
+Create a content-based movie recommeder that the user can give amovie title as input and the system return the 5 most relevant movie titles. We are going to use the genre of the movice and movie overviews to preprocess the data like remove punctuation, tokenization, remove stop words, and lemmitization. Then we used TF-IDF to identify the most important features or attributes of movies that are likely to be relevant to users' preferences. And we used consine similarities to compute the similarity between a user's preferences and the attributes of different movies calculated the similarity scores for all pairs of movies, we can use them to generate recommendations for the input from users.
 
 # data dictionary
 ## 1. tmdb_5000_movies.csv
