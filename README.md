@@ -6,8 +6,11 @@ Create a content-based movie recommeder that the user can give amovie title as i
 # data dictionary
 ## 1. tmdb_5000_movies.csv
 movie_id - A unique identifier for each movie.
+
 title - Title of the movie.
+
 cast - The name of lead and supporting actors.
+
 crew - The name of Director, Editor, Composer, Writer etc..
 
 ## 2. tmdb_5000_credits.csv
